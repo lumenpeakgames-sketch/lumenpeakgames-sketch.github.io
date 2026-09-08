@@ -117,30 +117,22 @@
         <!-- ---------- HALO BLOCKS ---------- -->
         <article class="game-card" aria-labelledby="halo-blocks-title">
           <div class="game-media">
-            <!--
-              REPLACE WITH: assets/images/halo-blocks-feature.png
-              (Google Play feature graphic, 1024 x 500). Once the file is in place,
-              delete the <div class="media-placeholder ..."> block below and uncomment the <img>.
-
-            <img class="game-feature" src="assets/images/halo-blocks-feature.png"
-                 alt="Halo Blocks — colorful block puzzle gameplay" width="1024" height="500" loading="lazy" decoding="async">
-            -->
-            <div class="media-placeholder media-placeholder-feature" aria-hidden="true">
-              <span class="media-placeholder-label">Feature graphic</span>
-            </div>
+            <!-- Feature graphic (1024 x 500): WebP first, PNG fallback -->
+            <picture>
+              <source srcset="assets/images/halo-blocks-feature.webp" type="image/webp">
+              <img class="game-feature" src="assets/images/halo-blocks-feature.png"
+                   alt="Halo Blocks — colorful block puzzle gameplay" width="1024" height="500" loading="lazy" decoding="async">
+            </picture>
           </div>
 
           <div class="game-body">
             <div class="game-heading">
-              <!--
-                REPLACE WITH: assets/images/halo-blocks-icon.png
-                (app icon, 512 x 512). Once the file is in place,
-                delete the <div class="media-placeholder ..."> block below and uncomment the <img>.
-
-              <img class="game-icon" src="assets/images/halo-blocks-icon.png"
-                   alt="Halo Blocks app icon" width="512" height="512" loading="lazy" decoding="async">
-              -->
-              <div class="media-placeholder media-placeholder-icon" aria-hidden="true"></div>
+              <!-- App icon (512 x 512): WebP first, PNG fallback -->
+              <picture>
+                <source srcset="assets/images/halo-blocks-icon.webp" type="image/webp">
+                <img class="game-icon" src="assets/images/halo-blocks-icon.png"
+                     alt="Halo Blocks app icon" width="512" height="512" loading="lazy" decoding="async">
+              </picture>
 
               <div>
                 <h3 class="game-title" id="halo-blocks-title">Halo Blocks</h3>
