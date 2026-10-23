@@ -568,6 +568,11 @@ button {
   margin-top: 0.25rem;
 }
 
+/* Space between stacked game cards */
+.game-card + .game-card {
+  margin-top: clamp(1.25rem, 3vw, 2rem);
+}
+
 /* ---------- Coming soon ---------- */
 .coming-soon {
   display: flex;
