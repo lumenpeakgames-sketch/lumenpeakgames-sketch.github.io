@@ -688,6 +688,19 @@ button {
   color: var(--muted);
 }
 
+.social-lead {
+  margin: 2rem 0 1rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   border-top: 1px solid var(--line);
